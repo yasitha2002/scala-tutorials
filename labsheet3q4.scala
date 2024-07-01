@@ -1,9 +1,6 @@
 package Demo
-
 object labsheet3q4 {
   def main(args: Array[String]): Unit = {
-    object SumEvenNumbers {
-      def main(args: Array[String]): Unit = {
         def sumEvenNumbers(numbers: List[Int]): Int = {
           if (numbers.isEmpty) {
             0
@@ -20,8 +17,3 @@ object labsheet3q4 {
         val result = sumEvenNumbers(list)
         println(s"The sum of even numbers in the list is: $result")
       }
-    }
-
-
-  }
-}
